@@ -1,0 +1,53 @@
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\bin\Debug\Wave Priject.exe.config
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\bin\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\bin\Debug\Wave Priject.pdb
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave Project.csproj.AssemblyReference.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave_Priject.frmWave.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave_Priject.frmWaveOrder.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave_Priject.Properties.Resources.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave Project.csproj.GenerateResource.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Priject\obj\Debug\Wave Priject.pdb
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\bin\Debug\Wave Priject.exe.config
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\bin\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\bin\Debug\Wave Priject.pdb
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave Project.csproj.AssemblyReference.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave_Priject.frmWave.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave_Priject.frmWaveOrder.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave_Priject.Properties.Resources.resources
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave Project.csproj.GenerateResource.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\source\repos\Excerices\Wave Project\obj\Debug\Wave Priject.pdb
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\bin\Debug\Wave Priject.exe.config
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\bin\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\bin\Debug\Wave Priject.pdb
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave Project.csproj.AssemblyReference.cache
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave_Priject.frmWave.resources
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave_Priject.frmWaveOrder.resources
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave_Priject.Properties.Resources.resources
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave Project.csproj.GenerateResource.cache
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave Priject.exe
+C:\Users\Mohamed Abdelfatah\Desktop\Wave Project\obj\Debug\Wave Priject.pdb
+D:\Wave Project\obj\Debug\Wave Project.csproj.AssemblyReference.cache
+D:\Wave Project\obj\Debug\Wave_Priject.frmWave.resources
+D:\Wave Project\obj\Debug\Wave_Priject.frmWaveOrder.resources
+D:\Wave Project\obj\Debug\Wave_Priject.Properties.Resources.resources
+D:\Wave Project\obj\Debug\Wave Project.csproj.GenerateResource.cache
+D:\Wave Project\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
+D:\Wave Project\obj\Debug\Wave Priject.exe
+D:\Wave Project\obj\Debug\Wave Priject.pdb
+D:\Repos\Wave Project\bin\Debug\Wave Priject.exe.config
+D:\Repos\Wave Project\bin\Debug\Wave Priject.exe
+D:\Repos\Wave Project\bin\Debug\Wave Priject.pdb
+D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.AssemblyReference.cache
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmWave.resources
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmWaveOrder.resources
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.OrderShow.resources
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.Properties.Resources.resources
+D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.GenerateResource.cache
+D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
+D:\Repos\Wave Project\obj\Debug\Wave Priject.exe
+D:\Repos\Wave Project\obj\Debug\Wave Priject.pdb

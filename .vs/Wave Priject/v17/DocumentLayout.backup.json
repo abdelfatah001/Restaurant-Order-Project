@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmwave.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwave.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|c:\\users\\mohamed abdelfatah\\source\\repos\\excerices\\wave priject\\frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|c:\\users\\mohamed abdelfatah\\source\\repos\\excerices\\wave priject\\frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|c:\\users\\mohamed abdelfatah\\source\\repos\\excerices\\wave priject\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmWave.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.cs",
+              "RelativeDocumentMoniker": "frmWave.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.cs",
+              "RelativeToolTip": "frmWave.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:11:52.946Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmWaveOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWaveOrder.cs",
+              "RelativeDocumentMoniker": "frmWaveOrder.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWaveOrder.cs",
+              "RelativeToolTip": "frmWaveOrder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:32:57.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmWaveOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWaveOrder.cs",
+              "RelativeDocumentMoniker": "frmWaveOrder.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWaveOrder.cs [Design]",
+              "RelativeToolTip": "frmWaveOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:32:55.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:13:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmWave.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.Designer.cs",
+              "RelativeDocumentMoniker": "frmWave.Designer.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.Designer.cs",
+              "RelativeToolTip": "frmWave.Designer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAawDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:06:35.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmWave.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.cs",
+              "RelativeDocumentMoniker": "frmWave.cs",
+              "ToolTip": "C:\\Users\\Mohamed Abdelfatah\\source\\repos\\Excerices\\Wave Priject\\frmWave.cs [Design]",
+              "RelativeToolTip": "frmWave.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:05:34.435Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
