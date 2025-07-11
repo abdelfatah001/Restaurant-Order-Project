@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\Repos\\Wave Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|D:\\Repos\\Wave Project\\frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwaveorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:frmwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|D:\\Repos\\Wave Project\\ordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:ordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|d:\\repos\\wave project\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|D:\\Repos\\Wave Project\\itempaneltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF9D4DD2-6062-45A7-BF90-33CC85508BA7}|Wave Project.csproj|solutionrelative:itempaneltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +50,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\Bill.cs",
+              "RelativeDocumentMoniker": "Bill.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\Bill.cs",
+              "RelativeToolTip": "Bill.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:23:38.933Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\Order.cs",
+              "RelativeDocumentMoniker": "Order.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\Order.cs",
+              "RelativeToolTip": "Order.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwDgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:23:05.183Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\OrderManager.cs",
+              "RelativeDocumentMoniker": "OrderManager.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\OrderManager.cs",
+              "RelativeToolTip": "OrderManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:22:39.808Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderBuilder.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\OrderBuilder.cs",
+              "RelativeDocumentMoniker": "OrderBuilder.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\OrderBuilder.cs",
+              "RelativeToolTip": "OrderBuilder.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAIA5wHAAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:22:07.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrderItem.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\OrderItem.cs",
+              "RelativeToolTip": "OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:21:50.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmWaveOrder.cs [Design]",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\frmWaveOrder.cs",
+              "RelativeDocumentMoniker": "frmWaveOrder.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\frmWaveOrder.cs [Design]",
+              "RelativeToolTip": "frmWaveOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:06:47.23Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmWave.cs [Design]",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\frmWave.cs",
+              "RelativeDocumentMoniker": "frmWave.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\frmWave.cs [Design]",
+              "RelativeToolTip": "frmWave.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:06:45.197Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderShow.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\OrderShow.cs",
+              "RelativeDocumentMoniker": "OrderShow.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\OrderShow.cs",
+              "RelativeToolTip": "OrderShow.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:42:50.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,12 +160,24 @@
               "Title": "frmWaveOrder.cs",
               "DocumentMoniker": "D:\\Repos\\Wave Project\\frmWaveOrder.cs",
               "RelativeDocumentMoniker": "frmWaveOrder.cs",
-              "ToolTip": "D:\\Repos\\Wave Project\\frmWaveOrder.cs*",
-              "RelativeToolTip": "frmWaveOrder.cs*",
-              "ViewState": "AgIAACYCAAAAAAAAAIAwwDoCAAA9AAAAAAAAAA==",
+              "ToolTip": "D:\\Repos\\Wave Project\\frmWaveOrder.cs",
+              "RelativeToolTip": "frmWaveOrder.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAwwGQBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T19:50:27.162Z",
+              "WhenOpened": "2025-04-28T17:11:35.111Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemPanelTag.cs",
+              "DocumentMoniker": "D:\\Repos\\Wave Project\\ItemPanelTag.cs",
+              "RelativeDocumentMoniker": "ItemPanelTag.cs",
+              "ToolTip": "D:\\Repos\\Wave Project\\ItemPanelTag.cs",
+              "RelativeToolTip": "ItemPanelTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:02:40.917Z"
             }
           ]
         }

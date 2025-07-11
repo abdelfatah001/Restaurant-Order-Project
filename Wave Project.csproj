@@ -104,6 +104,9 @@
     <EmbeddedResource Include="frmWaveOrder.resx">
       <DependentUpon>frmWaveOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OrderShow.dje-NE.resx">
+      <DependentUpon>OrderShow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderShow.resx">
       <DependentUpon>OrderShow.cs</DependentUpon>
     </EmbeddedResource>

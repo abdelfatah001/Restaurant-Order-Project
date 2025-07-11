@@ -15,7 +15,7 @@ namespace Wave_Priject
         }
 
         // Serivce Method of this current order
-        public static enServiceMethod CurrentOrderService = enServiceMethod.Null;
+        private static enServiceMethod CurrentOrderService = enServiceMethod.Null;
 
         // Change Service method
         public static void AssignServiceMethod(enServiceMethod serviceMethod = enServiceMethod.DineIn)
@@ -24,10 +24,15 @@ namespace Wave_Priject
         }
 
         // Order status of this current order
-        public static enOrderStatus CurrentOrderStatus = enOrderStatus.enInProgress;
+        private static enOrderStatus CurrentOrderStatus = enOrderStatus.enInProgress;
+
+        public static void AssignOrderStatus(enOrderStatus OrderStatus = enOrderStatus.enDelivered)
+        {
+            CurrentOrderStatus = OrderStatus;
+        }
 
         // The current order that contains all order items client ordered
-        public static Order CurrentOrder = new Order();
+        private static Order CurrentOrder = new Order();
 
         // Fill Current Order ( The whole order after finishing it)
         public static void StoreCurrentOrder()
@@ -43,10 +48,9 @@ namespace Wave_Priject
         // The List that contains all orders ordered
         public static List<Order> Orders = new List<Order>();
 
-        // The List of All Orders To Show them in Managment Page
-        public static List<OrderItem> CurrentOrderItems = new List<OrderItem>();
-        // Store this finished current Order to Order List 
-        public static void StoreCurrentOrderToOrderList()
+        
+        // Store this finished current Order to Order List (it must be stored to database this function but i am not learnt the database yet may be later)
+        public static void StoreCurrentOrderToOrdersList()
         {
             Orders.Add(CurrentOrder);
         }

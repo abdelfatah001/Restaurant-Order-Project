@@ -30,10 +30,12 @@ namespace Wave_Priject
 
         public DateTime OrderDateTime { get; set; }
 
-        public short TotalPrice { get; set; }
+        public int  TotalPrice { get; set; }
 
+        // These Property me be add later now its by default = enServiceMethod.DineIn and can;t be changed by user
         public enServiceMethod OrderServiceMethod { get; set; }
 
+        // These Property me be add later now its by default = enOrderStatus.enDelivered and can;t be changed by user
         public enOrderStatus OrderStatus { get; set; }
 
 
@@ -43,7 +45,7 @@ namespace Wave_Priject
 
 
         public Order (List<OrderItem> orderItems,
-            short totalPrice, enServiceMethod serviceMethod, enOrderStatus orderStatus)
+            int totalPrice, enServiceMethod serviceMethod = enServiceMethod.DineIn, enOrderStatus orderStatus = enOrderStatus.enDelivered)
         {
             this.OrderID = 55 + OrderCounts; // the 55 is specified for order IDs
             this.OrderItems = orderItems;

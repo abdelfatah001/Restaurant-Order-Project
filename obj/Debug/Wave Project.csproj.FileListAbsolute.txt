@@ -45,9 +45,12 @@ D:\Repos\Wave Project\bin\Debug\Wave Priject.pdb
 D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.AssemblyReference.cache
 D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmWave.resources
 D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmWaveOrder.resources
-D:\Repos\Wave Project\obj\Debug\Wave_Priject.OrderShow.resources
 D:\Repos\Wave Project\obj\Debug\Wave_Priject.Properties.Resources.resources
 D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.GenerateResource.cache
 D:\Repos\Wave Project\obj\Debug\Wave Project.csproj.CoreCompileInputs.cache
 D:\Repos\Wave Project\obj\Debug\Wave Priject.exe
 D:\Repos\Wave Project\obj\Debug\Wave Priject.pdb
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmOrderShow.resources
+D:\Repos\Wave Project\bin\Debug\dje-NE\Wave Priject.resources.dll
+D:\Repos\Wave Project\obj\Debug\Wave_Priject.frmOrderShow.dje-NE.resources
+D:\Repos\Wave Project\obj\Debug\dje-NE\Wave Priject.resources.dll

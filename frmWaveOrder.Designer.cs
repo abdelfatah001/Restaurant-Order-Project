@@ -96,14 +96,12 @@
             this.rbPepperoniPizza = new System.Windows.Forms.RadioButton();
             this.rbMargheritaPizza = new System.Windows.Forms.RadioButton();
             this.pnlOrderSummary = new System.Windows.Forms.Panel();
-            this.flpShowOrder = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblChoosenName = new System.Windows.Forms.Label();
             this.pnl2OrderSummary = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.lblTotalPrice = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -113,6 +111,7 @@
             this.btnFoodAddToOrder = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.numItemCount = new System.Windows.Forms.NumericUpDown();
+            this.flpShowOrder = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlColdDrinkies.SuspendLayout();
             this.gbColdDrinkies.SuspendLayout();
             this.gbOther.SuspendLayout();
@@ -186,7 +185,7 @@
             this.gbColdDrinkies.Controls.Add(this.gbJuices);
             this.gbColdDrinkies.Controls.Add(this.gbCola);
             this.gbColdDrinkies.Font = new System.Drawing.Font("Noto Sans HK", 14.25F, System.Drawing.FontStyle.Bold);
-            this.gbColdDrinkies.Location = new System.Drawing.Point(6, 7);
+            this.gbColdDrinkies.Location = new System.Drawing.Point(3, 3);
             this.gbColdDrinkies.Name = "gbColdDrinkies";
             this.gbColdDrinkies.Size = new System.Drawing.Size(276, 516);
             this.gbColdDrinkies.TabIndex = 2;
@@ -593,7 +592,7 @@
             this.pnlDessertFood.Location = new System.Drawing.Point(791, 129);
             this.pnlDessertFood.MaximumSize = new System.Drawing.Size(400, 600);
             this.pnlDessertFood.Name = "pnlDessertFood";
-            this.pnlDessertFood.Size = new System.Drawing.Size(296, 483);
+            this.pnlDessertFood.Size = new System.Drawing.Size(296, 486);
             this.pnlDessertFood.TabIndex = 11;
             this.pnlDessertFood.Tag = "2";
             // 
@@ -1061,9 +1060,8 @@
             // 
             this.pnlOrderSummary.BackColor = System.Drawing.Color.PeachPuff;
             this.pnlOrderSummary.Controls.Add(this.flpShowOrder);
-            this.pnlOrderSummary.Controls.Add(this.panel2);
-            this.pnlOrderSummary.Controls.Add(this.lblChoosenName);
             this.pnlOrderSummary.Controls.Add(this.pnl2OrderSummary);
+            this.pnlOrderSummary.Controls.Add(this.lblChoosenName);
             this.pnlOrderSummary.Controls.Add(this.label1);
             this.pnlOrderSummary.Controls.Add(this.lblPrice);
             this.pnlOrderSummary.Controls.Add(this.btnFoodOrder);
@@ -1078,24 +1076,15 @@
             this.pnlOrderSummary.Size = new System.Drawing.Size(390, 698);
             this.pnlOrderSummary.TabIndex = 8;
             // 
-            // flpShowOrder
-            // 
-            this.flpShowOrder.AutoSize = true;
-            this.flpShowOrder.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpShowOrder.Location = new System.Drawing.Point(27, 126);
-            this.flpShowOrder.Name = "flpShowOrder";
-            this.flpShowOrder.Size = new System.Drawing.Size(332, 293);
-            this.flpShowOrder.TabIndex = 0;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(19, 81);
+            this.panel2.Location = new System.Drawing.Point(3, 17);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(340, 37);
+            this.panel2.Size = new System.Drawing.Size(345, 37);
             this.panel2.TabIndex = 15;
             // 
             // label7
@@ -1142,32 +1131,24 @@
             this.lblChoosenName.Size = new System.Drawing.Size(348, 43);
             this.lblChoosenName.TabIndex = 12;
             this.lblChoosenName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChoosenName.Click += new System.EventHandler(this.lblChoosenName_Click);
             // 
             // pnl2OrderSummary
             // 
             this.pnl2OrderSummary.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnl2OrderSummary.Controls.Add(this.panel1);
+            this.pnl2OrderSummary.Controls.Add(this.panel2);
             this.pnl2OrderSummary.Controls.Add(this.lblTotalPrice);
             this.pnl2OrderSummary.Controls.Add(this.label6);
-            this.pnl2OrderSummary.Location = new System.Drawing.Point(13, 78);
+            this.pnl2OrderSummary.Location = new System.Drawing.Point(12, 78);
             this.pnl2OrderSummary.Name = "pnl2OrderSummary";
-            this.pnl2OrderSummary.Size = new System.Drawing.Size(359, 430);
+            this.pnl2OrderSummary.Size = new System.Drawing.Size(355, 426);
             this.pnl2OrderSummary.TabIndex = 12;
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.AutoScroll = true;
-            this.panel1.Location = new System.Drawing.Point(3, 38);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(353, 320);
-            this.panel1.TabIndex = 14;
             // 
             // lblTotalPrice
             // 
             this.lblTotalPrice.Font = new System.Drawing.Font("Noto Sans HK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPrice.ForeColor = System.Drawing.Color.Red;
-            this.lblTotalPrice.Location = new System.Drawing.Point(207, 371);
+            this.lblTotalPrice.Location = new System.Drawing.Point(196, 382);
             this.lblTotalPrice.Name = "lblTotalPrice";
             this.lblTotalPrice.Size = new System.Drawing.Size(94, 30);
             this.lblTotalPrice.TabIndex = 13;
@@ -1179,7 +1160,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Noto Sans HK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(84, 371);
+            this.label6.Location = new System.Drawing.Point(47, 382);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(121, 30);
             this.label6.TabIndex = 13;
@@ -1279,6 +1260,11 @@
             0,
             0,
             0});
+            this.numItemCount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numItemCount.Name = "numItemCount";
             this.numItemCount.Size = new System.Drawing.Size(32, 29);
             this.numItemCount.TabIndex = 4;
@@ -1288,6 +1274,18 @@
             0,
             0});
             // 
+            // flpShowOrder
+            // 
+            this.flpShowOrder.AutoScroll = true;
+            this.flpShowOrder.AutoSize = true;
+            this.flpShowOrder.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpShowOrder.Location = new System.Drawing.Point(15, 143);
+            this.flpShowOrder.MaximumSize = new System.Drawing.Size(345, 301);
+            this.flpShowOrder.Name = "flpShowOrder";
+            this.flpShowOrder.Size = new System.Drawing.Size(345, 301);
+            this.flpShowOrder.TabIndex = 0;
+            this.flpShowOrder.WrapContents = false;
+            // 
             // frmWaveOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1296,10 +1294,10 @@
             this.ClientSize = new System.Drawing.Size(1120, 732);
             this.Controls.Add(this.rbEat);
             this.Controls.Add(this.rbDrink);
+            this.Controls.Add(this.pnlMainFood);
+            this.Controls.Add(this.pnlDessertFood);
             this.Controls.Add(this.pnlHotDrinkies);
             this.Controls.Add(this.pnlColdDrinkies);
-            this.Controls.Add(this.pnlDessertFood);
-            this.Controls.Add(this.pnlMainFood);
             this.Controls.Add(this.pnlOrderSummary);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -1307,6 +1305,7 @@
             this.MaximumSize = new System.Drawing.Size(1136, 771);
             this.MinimumSize = new System.Drawing.Size(974, 771);
             this.Name = "frmWaveOrder";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wave Order";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmWaveOrder_FormClosed);
             this.Load += new System.EventHandler(this.frmWaveOrder_Load);
@@ -1438,15 +1437,10 @@
         public System.Windows.Forms.RadioButton rbVanillaIceCream;
         public System.Windows.Forms.RadioButton rbChocolateIceCream;
         public System.Windows.Forms.Label lblChoosenName;
-        public System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.Label label3;
-        public System.Windows.Forms.FlowLayoutPanel flpShowOrder;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Panel panel2;
-
-        
-
-
+        public System.Windows.Forms.FlowLayoutPanel flpShowOrder;
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wave_Priject
 {
-    class MenuItem
+    public class MenuItem
     {
         public byte ItemID { get; }
 

@@ -9,18 +9,27 @@ namespace Wave_Priject
 {
     class ItemPanelTag
     {
-        public short flpInedx { get; set; }
 
         public bool IsOpened { get; set; }
 
-        public RadioButton rb { get; set; }
+        // Storing the radio button that include this item to be easy reach to index and IsExist
+        public RadioButton ItemRB { get; set; }
 
-        public ItemPanelTag(short Index, bool IsOpened,RadioButton rb)
+        public short Index { get; set; }
+
+        public ItemPanelTag(bool IsOpened,RadioButton rb) // used in order summary item panel
         {
-            this.flpInedx = Index;
             this.IsOpened = IsOpened;
-            this.rb = rb;
+            this.ItemRB = rb;
         }
+
+        public ItemPanelTag(bool IsOpened, short Index) // used in order show item panels after press order
+        {
+            this.IsOpened = IsOpened;
+            this.Index = Index;
+            ItemRB = null;
+        }
+
 
         public ItemPanelTag()
         {

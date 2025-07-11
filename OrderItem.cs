@@ -7,16 +7,21 @@ using System.Threading.Tasks;
 
 namespace Wave_Priject
 {
-    class OrderItem
+    public class OrderItem
     {
         public  MenuItem Item  { get; }
 
         public byte ItemCount { get; set; }
 
+        public int Price { get; set; }
+
+        public short IndexInCurrentOrderList { get; set; }
+
         public OrderItem (MenuItem Item, byte ItemCount)
         {
             this.Item = Item;
             this.ItemCount = ItemCount;
+            this.Price = (short)(Item.Price * ItemCount);
         }
         public OrderItem()
         {

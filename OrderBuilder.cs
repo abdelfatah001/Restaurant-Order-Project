@@ -17,7 +17,7 @@ namespace Wave_Priject
 
         // store the total price after adding any item to the order.
         // changed by AddCurrentOrderItemToOrderItemsList.
-        public static short TotalPrice = 0;
+        public static int TotalPrice = 0;
 
 
         // This is the current menu item that client choose (MenuItem)
@@ -34,7 +34,7 @@ namespace Wave_Priject
         public static List<OrderItem> CurrentOrderItemsList = new List<OrderItem>();
 
 
-        // Store current menu item in CurrentMenuItem
+        // Store current menu item in CurrentMenuItem by analyzing item code present in its radio button to access the item 
         public static void StoreCurrentMenuItem(string ItemCode)
         {
 
@@ -68,22 +68,54 @@ namespace Wave_Priject
         { 
             // Store Order Item with MenuItem and this item number
             CurrentOrderItem = new OrderItem(CurrentMenuItem, QtyOfCurrentItem);
-            
-            // Update total price by adding this item price
-            TotalPrice += (short)(CurrentOrderItem.ItemCount * CurrentOrderItem.Item.Price);
         }
       
         // Add Current Order Item to the list of current order items. 
         public static void AddCurrentOrderItemToOrderItemsList()
         { 
-            // first store data in it (Current Order Item) to convert current MenuItem to Current OrderItem 
-            StoreOrderItem(); 
             
             // Add (Current Order Item) to (Current Order Items List)
             CurrentOrderItemsList.Add(CurrentOrderItem);
+
+            // Update total price by adding this item price
+            TotalPrice += (short)(CurrentOrderItem.ItemCount * CurrentOrderItem.Item.Price);
         }
 
-        
+       
+
+
+        public static void DeleteItemFromCurrentOrderList (short index)
+        {
+            if (index < 0 || index >= CurrentOrderItemsList.Count)
+            {
+                return;
+            }
+            // store item to delete price to substract it from total price
+            int ItemToDeletePrice = CurrentOrderItemsList.ElementAt(index).Price;
+
+            // Remove item from CurrentOrderList
+            CurrentOrderItemsList.RemoveAt(index);
+
+            // Substract the price of deleted item from total price
+            TotalPrice -= ItemToDeletePrice;
+
+        }
+ 
+        public static void EditQuantityOfThisItem (short NewQuantity, short Index)
+        {
+            // Substract the the old Item Price that before update item quantity from TotalPrice
+            TotalPrice -= CurrentOrderItemsList.ElementAt(Index).Price;
+
+            // Update Quantity of the item
+            CurrentOrderItemsList.ElementAt(Index).ItemCount = (byte) NewQuantity;
+
+            // Update the Price of the Item accordeing to the new quantity
+            CurrentOrderItemsList.ElementAt(Index).Price = (int)(NewQuantity * CurrentOrderItemsList.ElementAt(Index).Item.Price);
+
+            // Add new price of the item after update its quantity to Total Price 
+            TotalPrice += CurrentOrderItemsList.ElementAt(Index).Price;
+        }
+
         public static void ResetItem()
         { // Reset MenuItem, Count, OrderItem
           // used to reset item stored data when already it added to Current Order Items List steading for new item
@@ -94,24 +126,9 @@ namespace Wave_Priject
         }
 
 
-     
-        public static void EditQtyInListWhenReplicated (short index)
-        { 
-            // edit on its quantity in Current Order List
-            OrderBuilder.CurrentOrderItemsList.ElementAt(index).ItemCount += OrderBuilder.CurrentOrderItem.ItemCount;
-        }
-
-
-        public static void DeleteItemFromCurrentOrderList (short index)
+        public static void ResetCurrentOrderList ()
         {
-            if (index < 0 || index >= CurrentOrderItemsList.Count)
-            {
-                return;
-            }
-
-            CurrentOrderItemsList.RemoveAt(index);
-
+            CurrentOrderItemsList.Clear();
         }
-
     }
 }

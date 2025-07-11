@@ -14,7 +14,7 @@ namespace Wave_Priject
 
         public DateTime DateTime { get; set; }
 
-        public short TotalPrice { get; set; }
+        public int TotalPrice { get; set; }
 
         public enServiceMethod OrderServiceMethod { get; set; }
 
@@ -24,7 +24,7 @@ namespace Wave_Priject
         public static short BillCounts = 1;
 
         public Bill (List<OrderItem> items, DateTime dateTime, 
-            short totalPrice, enServiceMethod orderServiceMethod, enOrderStatus orderStatus)
+            int totalPrice, enServiceMethod orderServiceMethod, enOrderStatus orderStatus)
         {
             this.BillID = 45 + BillCounts; // the 45 is specified for bill IDs
             Items = items;
